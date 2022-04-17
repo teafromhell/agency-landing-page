@@ -1,0 +1,53 @@
+@import "../variables/variables.scss";
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 8rem;
+    &__name {
+        margin-bottom: 0.7rem;
+        color: $Darkgrayishblue;
+        letter-spacing: 0.3rem;
+    }
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        img {
+            border-radius: 50%;
+            width: 60px;
+            margin-bottom: 3rem;
+            margin-top: 3rem;
+        }
+
+        b {
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: $Verydarkdesaturatedblue;
+            font-weight: 900;
+        }
+        
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 15px;
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: $Verydarkgrayishblue;
+    }
+    &__job {
+        color: $Grayishblue;
+        font-size: 12px;
+    }
+}
